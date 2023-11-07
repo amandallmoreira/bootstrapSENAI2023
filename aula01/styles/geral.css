@@ -1,0 +1,16 @@
+:root{
+    --laranja:#dd6509;
+    --preto:#242424;
+    --branco:#ffffff;
+    --fontePrincipal: trebuchet;
+
+    /*root, salva variaveis*/
+    /*variavel: dado;*/
+    /*chamar var = var(--variavel)*/
+    /*element !important=prioriza o código*/
+}
+
+#pagina{
+    background-color: var(--preto)!important;
+    color:var(--branco);
+}
