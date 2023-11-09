@@ -6,8 +6,9 @@
     --mostarda: #c7c730;
 }
 
-header, nav, footer{
-    background-color: var(--vermelho);
+header, footer{
+    background-color: var(--vermelho)!important;
+    /*PROBLEMA*/
 }
 
 #banner{
