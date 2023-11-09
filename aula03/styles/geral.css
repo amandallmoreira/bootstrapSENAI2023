@@ -1,0 +1,33 @@
+:root{
+    --preto: #302727;
+    --vermelho: #ba2d2d;
+    --laranjaEscuro: #f2511b;
+    --laranja: #f2861b;
+    --mostarda: #c7c730;
+}
+
+header, nav, footer{
+    background-color: var(--vermelho);
+}
+
+#banner{
+    margin-top: 2px;
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#pagamento{
+    height: 500px;
+    margin:40px; 
+}
+.col{
+    margin: 20px;
+    border:var(--preto) 2px solid;
+    width:50px; /*PROBLEMA*/
+
+}
