@@ -19,14 +19,14 @@
     <div id="root" class="container-fluid p-0 m-0 ">
         <header>
             <!--NAVBAR-->
-            <nav class="navbar navbar-expand-md" style="background-color:var(--vermelho);">
+            <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img id="svg" style="height: 4rem;" src="images/logoWhite.svg " fill="white" alt="Pasta de arquivos na cor branca"></a>
-                    <!--COMO MUDAR COR DE SVG E COMO APLICAR COR DE FUNDO NO HEADER-->
-
+                  <a class="navbar-brand" href="#"><img style="width:80px;" src="images/logoWhite.svg " alt="Pasta de arquivos na cor branca"></a>
+                   
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
+
                   <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
@@ -42,9 +42,9 @@
                         <a class="nav-link" href="#">Sua conta bancária</a>
                       </li>
                     </ul>
-                    <span class="navbar-text">
-                      Caixa com botão
-                    </span>
+
+                      <button class="btn btn-outline-light" type="submit" id="botao">Abra sua conta</button>
+                
                   </div>
                 </div>
               </nav>
@@ -52,32 +52,57 @@
         </header>
         <main>
             <!--BANNER-->
-            <div id="banner">
+           
+            <div id="banner" class="container-fluid p-0 m-10 d-flex align-items-center">
+
+              <div id="mensagemBanner" class="m-0 ">
+                <h1>SEJA BEM VINDO AO BANCO 90!</h1>
+                <p>Aqui você encontra o melhor serviço e atendimento do Brasil.</p>
+              </div>
+
             </div>
             <!--FIM BANNER-->
             <section id="pagamento">
-                <div class="container text-center">
+                <div class="container text-center ">
                     <h1>ESCOLHA SUA FORMA DE PAGAMENTO PREFERIDA</h1>
                     <div class="row">
-                      <div class="col">
-                        <img src="images/codigoDeBarras.svg" alt="Imagem de um código de barras">
-                        <h2>BOLETO</h2>
+                          <div class="col">
+                            <img src="images/codigoDeBarras.svg" alt="Imagem de um código de barras">
+                            <h2>BOLETO</h2>
+                          </div>
+                          <div class="col">
+                            <img src="images/CartaoDeCredito.svg" alt="Imagem de um cartão de crédito">
+                            <h2>CARTÃO</h2>
+                          </div>
+                          <div class="col">
+                            <img src="images/Dinheiro.svg" alt="Imagem de uma nota de dinheiro">
+                            <h2>DINHEIRO</h2>
+                          </div>
                       </div>
-                      <div class="col">
-                        <img src="images/CartaoDeCredito.svg" alt="Imagem de um cartão de crédito">
-                        <h2>CARTÃO</h2>
-                      </div>
-                      <div class="col">
-                        <img src="images/Dinheiro.svg" alt="Imagem de uma nota de dinheiro">
-                        <h2>DINHEIRO</h2>
-                      </div>
-                    </div>
                   </div>
 
             </section>
 
+              <!--Container-fluid witdth 100%-->
+              <!--Container witdth 80%-->
+              <!--bg-x background-->
+
+            <section id="servicos" class="container-fluid d-flex">
+
+              <div id="textoEsquerdo">
+                <h2>Contrate nossos serviços</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iure praesentium est commodi quisquam, similique ex, vitae laboriosam adipisci fugit eius in, iusto minus quas pariatur modi ipsum. Nemo, dignissimos!</p>
+
+              </div>
+              
+              <div id="imagemDireita"></div>
+
+
+
+            </section>
+
         </main>
-        <footer style="d-flex justify;">
+        <footer class="d-flex">
             <h3>Todos os direitos reservados a Bank 90!</h3>
         </footer>
     </div>

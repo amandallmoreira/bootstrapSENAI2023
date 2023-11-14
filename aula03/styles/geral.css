@@ -3,12 +3,19 @@
     --vermelho: #ba2d2d;
     --laranjaEscuro: #f2511b;
     --laranja: #f2861b;
+    --laranjaTransparente: #f2871b7e;
     --mostarda: #c7c730;
+    --branco:#ffffff;
 }
 
-footer{
+header, footer{
     background-color: var(--vermelho)!important;
-    /*PROBLEMA*/
+   
+}
+
+.nav-link, nav a{
+    color: var(--branco)!important;
+
 }
 
 #banner{
@@ -22,13 +29,66 @@ footer{
 
 }
 
+#mensagemBanner{
+    padding: 20px;
+    background-color: var(--laranjaTransparente);
+    width: 400px;
+    height: 200px;  
+}
+
+
 #pagamento{
-    height: 500px;
+    width: 100%;
+    height: 300px;
     margin:40px; 
 }
 .col{
     margin: 20px;
+    padding: 40px ;
     border:var(--preto) 2px solid;
-    width:50px; /*PROBLEMA*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border:var(--preto) 1px solid; 
+
+
+}
+#botao{
+    color:white;
+    background-color: transparent;
+    border: var(--branco) 1px solid !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#servicos{
+    background-color: var(--preto);
+    color:var(--branco);
+    height: 300px;
+    padding: 0%;
+    
+}
+
+#textoEsquerdo{
+    height:300px;
+    width: 50%;
+    text-align:center;
+
+}
+
+#imagemDireita{
+    height: 285px;
+    width: 50%;
+    margin-top: 7px;
+    margin-left: 0%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/cartaoUm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
